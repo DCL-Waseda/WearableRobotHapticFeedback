@@ -765,7 +765,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 2
   cloudProjectId: 2d7daca9-9f6b-4be0-bf2e-fa06abf1169c
-  projectName: New Unity Project (1)
+  projectName: Robotic Haptic Feedback
   organizationId: shubhankar30
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

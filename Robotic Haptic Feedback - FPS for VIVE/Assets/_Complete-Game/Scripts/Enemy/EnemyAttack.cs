@@ -32,11 +32,23 @@ namespace CompleteProject
             // If the entering collider is the player...
             if(other.gameObject == player)
             {
+                //WebSocketCallingFunction
                 // ... the player is in range.
                 playerInRange = true;
-            }
-        }
+                //OnCollisionEnter();
 
+            }
+        }6
+        //Point where the enemy enters the capsule
+        void OnCollisionEnter(Collision collision)
+        {
+            ContactPoint contact = collision.contacts[0];
+            Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
+            Vector3 pos = contact.point;
+            //Instantiate(explosionPrefab, pos, rot);
+            //Destroy(gameObject);
+            Debug.Log("Contact point debug:" + contact.point.x +","+ contact.point.y +","+ contact.point.z);
+        }
 
         void OnTriggerExit (Collider other)
         {

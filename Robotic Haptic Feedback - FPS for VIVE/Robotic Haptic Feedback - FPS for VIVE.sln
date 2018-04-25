@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robotic Haptic Feedback - FPS for VIVE", "Robotic Haptic Feedback - FPS for VIVE.csproj", "{9E66A3C2-96DE-89E3-B709-197591E9E1B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robotic Haptic Feedback - FPS for VIVE.Editor", "Robotic Haptic Feedback - FPS for VIVE.Editor.csproj", "{75BDAE82-26C9-E2B0-466D-AE41A9720571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E66A3C2-96DE-89E3-B709-197591E9E1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E66A3C2-96DE-89E3-B709-197591E9E1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E66A3C2-96DE-89E3-B709-197591E9E1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E66A3C2-96DE-89E3-B709-197591E9E1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75BDAE82-26C9-E2B0-466D-AE41A9720571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75BDAE82-26C9-E2B0-466D-AE41A9720571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75BDAE82-26C9-E2B0-466D-AE41A9720571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75BDAE82-26C9-E2B0-466D-AE41A9720571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
